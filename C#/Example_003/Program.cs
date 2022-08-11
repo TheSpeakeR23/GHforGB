@@ -1,4 +1,5 @@
-﻿int numberA = new Random().Next(1, 100);
+﻿Console.Clear();
+int numberA = new Random().Next(1, 100);
 Console.WriteLine($"Случайное значение числа A равно {numberA}");
 int numberB = new Random().Next(1, 100);
 Console.WriteLine($"Случайное значение числа B равно {numberB}");
