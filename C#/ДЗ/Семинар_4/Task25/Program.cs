@@ -1,12 +1,11 @@
-﻿Console.Write("введите число A: ");
+﻿Console.Write("Введите число A: ");
 int a = Convert.ToInt32(Console.ReadLine());
-Console.Write("введите число B: ");
+Console.Write("Введите число B: ");
 int b = Convert.ToInt32(Console.ReadLine());
 int step = a;
 
 int cycle(int a, int b) {
-    for (int i = 1; i < b; i++)
-    {
+    for (int i = 1; i < b; i++) {
     step = step * a;
     }
 return step;
