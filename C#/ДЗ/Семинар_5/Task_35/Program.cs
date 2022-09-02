@@ -26,7 +26,7 @@ int Quantity(int[] Array){
   return quantity;
 }
 
-input_numbers(numbers, 10, 600);
+input_numbers(numbers, 0, 600);
 WriteArray(numbers);
 Console.WriteLine();
 
