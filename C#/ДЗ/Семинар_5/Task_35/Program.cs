@@ -2,9 +2,9 @@
 
 int[] numbers = new int[123];
 
-void input_numbers (int[] Array, int min, int max){
+void input_numbers (int[] Array){
   for (int i = 0; i < Array.Length; i++ ){
-    Array[i] = new Random().Next(min, max);
+    Array[i] = new Random().Next();
   }
 }
 
@@ -26,7 +26,7 @@ int Quantity(int[] Array){
   return quantity;
 }
 
-input_numbers(numbers, 0, 600);
+input_numbers(numbers);
 WriteArray(numbers);
 Console.WriteLine();
 
