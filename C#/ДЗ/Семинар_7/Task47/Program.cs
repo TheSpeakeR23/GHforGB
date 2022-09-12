@@ -1,6 +1,6 @@
-﻿Console.WriteLine("Введите количество строк");
+﻿Console.Write("Введите количество строк: ");
 int ArrLines = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите количество столбцов");
+Console.Write("Введите количество столбцов: ");
 int ArrColumns = Convert.ToInt32(Console.ReadLine());
 double[,] numbers = new double[ArrLines, ArrColumns];
 FillArrayRandomNumbers(numbers);
