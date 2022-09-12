@@ -6,9 +6,9 @@ double[,] numbers = new double[ArrLines, ArrColumns];
 FillArrayRandomNumbers(numbers);
 PrintArray(numbers);
 
-int ElementLine = ReadInt("Введите номер строки: ");
+int ElementLine = ReadInt("Введите номер строки элемента: ");
 
-int ElementColumn = ReadInt("Введите номер столбца: ");
+int ElementColumn = ReadInt("Введите номер столбца элемента: ");
 
 if (ElementLine - 1 < numbers.GetLength(0) && ElementColumn - 1 < numbers.GetLength(1)) Console.WriteLine(numbers[ElementLine - 1, ElementColumn - 1]);
 else Console.WriteLine($"{ElementLine}{ElementColumn} -> такого числа в массиве нет");
