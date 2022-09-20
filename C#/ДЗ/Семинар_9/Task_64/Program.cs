@@ -5,8 +5,7 @@ int count = 1;
 if (number >= 1) {
     Console.WriteLine($"Последовательность натуральных чисел от {number} до 1:");
     NaturalToLow(number, count);
-}
-else {
+} else {
     Console.WriteLine("Некорректный ввод данных...");
 }
 
